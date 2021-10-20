@@ -37,7 +37,7 @@ jobs:
       # Run our unit tests
      - name: Run unit tests
        run: |
-          python test_app.py
+          python test_application.py
      
   deploy-to-test:
     needs:
